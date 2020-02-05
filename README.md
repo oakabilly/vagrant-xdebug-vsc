@@ -79,10 +79,8 @@ Nginx
             "type": "php",
             "request": "launch",
             "port": 9000,
-            // "localSourceRoot": "/home/conversa/www/pentadiet.it/site",
-            // "serverSourceRoot": "/home/vagrant/penta"
             "pathMappings": {
-                "/home/vagrant/penta/": "${workspaceRoot}",
+                "/home/vagrant/laravel/": "${workspaceRoot}",
             },
             "log": true
         },
