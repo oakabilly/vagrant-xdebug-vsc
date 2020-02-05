@@ -75,7 +75,7 @@ Nginx
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Pentadiet",
+            "name": "Laravel",
             "type": "php",
             "request": "launch",
             "port": 9000,
