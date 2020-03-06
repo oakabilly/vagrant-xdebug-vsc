@@ -18,7 +18,7 @@ HOW-TO: Use Xdebug with Visual Studio Code on a Vagrant Machine
 
 <code>vagrant ssh</code>
 
-# SET PHP VERSION
+### SET PHP VERSION
 <code>update-alternatives --config php</code>
 
 ## XDEBUG
