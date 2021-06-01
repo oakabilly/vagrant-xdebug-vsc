@@ -34,9 +34,9 @@ HOW-TO: Use Xdebug with Visual Studio Code on a Vagrant Machine
 copy and paste (for xdebug < v3)
 
 <blockquote>
-zend_extension = xdebug.so  
-xdebug.remote_enable = 1  
-xdebug.remote_connect_back = 1  
+zend_extension = xdebug.so      
+xdebug.remote_enable = 1      
+xdebug.remote_connect_back = 1      
 xdebug.remote_autostart = true  
 xdebug.remote_port = 9000 #optional 
 </blockquote>
