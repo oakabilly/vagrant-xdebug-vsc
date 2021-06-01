@@ -31,20 +31,23 @@ HOW-TO: Use Xdebug with Visual Studio Code on a Vagrant Machine
 
 <code>sudo nano /etc/php/7.4/mods-available/xdebug.ini</code>
 
-copy and paste
+copy and paste (for xdebug < v3)
 
 <blockquote>
-
-zend_extension=xdebug.so
-
+zend_extension = xdebug.so
 xdebug.remote_enable = 1
-
-xdebug.remote_connect_back=1
-
+xdebug.remote_connect_back = 1
 xdebug.remote_autostart = true
-
 xdebug.remote_port = 9000 #optional
+</blockquote>
 
+copy and paste (for xdebug >= v3)
+<blockquote>
+zend_extension = xdebug.so
+xdebug.mode = debug
+xdebug.start_with_request = yes
+xdebug.discover_client_host = 1
+xdebug.client_port = 9000
 </blockquote>
 
 ### Do symbolic linking
